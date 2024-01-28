@@ -1144,7 +1144,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 252e66db7ca1959428c09ce2e5bb7d9d, type: 3}
---- !u!1001 &9184299397888701889
+--- !u!1001 &8096080322759453032
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1152,70 +1152,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 419897996110576308, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 1971877336567808287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: camPos
       value: 
       objectReference: {fileID: 436839671}
-    - target: {fileID: 1570275982244515328, guid: 8b05b50fbc1778148ae9f54132909ec2,
-        type: 3}
-      propertyPath: m_Name
-      value: CameraHolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9099375371782286978, guid: 8b05b50fbc1778148ae9f54132909ec2,
-        type: 3}
-      propertyPath: orientation
-      value: 
-      objectReference: {fileID: 1192857899}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.5999999
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9177523000146406876, guid: 8b05b50fbc1778148ae9f54132909ec2,
+    - target: {fileID: 5958546324988457287, guid: 8b05b50fbc1778148ae9f54132909ec2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219483670341250167, guid: 8b05b50fbc1778148ae9f54132909ec2,
+        type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 1192857899}
+    - target: {fileID: 9159861410458728816, guid: 8b05b50fbc1778148ae9f54132909ec2,
+        type: 3}
+      propertyPath: m_Name
+      value: CameraHolder
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1229,5 +1229,5 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 988782910}
-  - {fileID: 9184299397888701889}
+  - {fileID: 8096080322759453032}
   - {fileID: 7490648320390794850}
