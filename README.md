@@ -1,1 +1,1 @@
-# Escape-From-School
+# School Escape
