@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 153291485659265190}
   - component: {fileID: 8417306944814725812}
   m_Layer: 5
-  m_Name: BoxText
+  m_Name: KeyPadText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -989,7 +989,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Open Box
+  m_Text: Use KeyPad
 --- !u!1 &5546547387290516071
 GameObject:
   m_ObjectHideFlags: 0
