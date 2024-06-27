@@ -71,7 +71,6 @@ public class AdvancedDoors : MonoBehaviour
         if (inReach && doorisClosed && unlocked && Input.GetButtonDown("Interact"))
         {
             door.SetBool("Open", true);
-            door.SetBool("Closed", false);
             openText.SetActive(false);
             //openSound.Play();
             doorisOpen = true;

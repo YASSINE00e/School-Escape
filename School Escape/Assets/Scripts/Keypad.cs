@@ -71,6 +71,8 @@ public class Keypad : MonoBehaviour
         hud.SetActive(true);
         player.GetComponent<PlayerMovement>().enabled = true;
         cam.GetComponent<PlayerCam>().enabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
 
     }
