@@ -11,6 +11,7 @@ public class DragDrop : MonoBehaviour
     public float snapDistance = 0.5f; // The distance within which the object will snap to the target position
     public int partOrder; // The order of this part in the assembly process
     public static int currentOrder = 1; // The current order part that needs to be placed
+    public Animator openbox;
 
     void Update()
     {
@@ -48,6 +49,9 @@ public class DragDrop : MonoBehaviour
             transform.position = targetPosition.position;
             transform.rotation = targetPosition.rotation;
             currentOrder++; // Update the order to the next part
+            if (currentOrder>15){
+                openbox.Play("OpenBoxCabInfo");
+            }
         }
         else
         {
